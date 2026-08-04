@@ -13,13 +13,13 @@ import (
 
 	"errors"
 
-	ige "github.com/amarnathcjd/gogram/internal/aes_ige"
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
-	"github.com/amarnathcjd/gogram/internal/keys"
-	"github.com/amarnathcjd/gogram/internal/math"
-	"github.com/amarnathcjd/gogram/internal/mtproto/objects"
-	"github.com/amarnathcjd/gogram/internal/session"
-	"github.com/amarnathcjd/gogram/internal/utils"
+	ige "github.com/BabiesIQ/gogram/internal/aes_ige"
+	"github.com/BabiesIQ/gogram/internal/encoding/tl"
+	"github.com/BabiesIQ/gogram/internal/keys"
+	"github.com/BabiesIQ/gogram/internal/math"
+	"github.com/BabiesIQ/gogram/internal/mtproto/objects"
+	"github.com/BabiesIQ/gogram/internal/session"
+	"github.com/BabiesIQ/gogram/internal/utils"
 )
 
 // https://core.telegram.org/mtproto/auth_key

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amarnathcjd/gogram/internal/cmd/tlgen/gen"
-	"github.com/amarnathcjd/gogram/internal/cmd/tlgen/tlparser"
+	"github.com/BabiesIQ/gogram/internal/cmd/tlgen/gen"
+	"github.com/BabiesIQ/gogram/internal/cmd/tlgen/tlparser"
 )
 
 const (

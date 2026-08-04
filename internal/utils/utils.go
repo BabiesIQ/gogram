@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
+	"github.com/BabiesIQ/gogram/internal/encoding/tl"
 )
 
 var (

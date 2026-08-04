@@ -16,11 +16,11 @@ import (
 	"strconv"
 	"strings"
 
-	ige "github.com/amarnathcjd/gogram/internal/aes_ige"
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
-	"github.com/amarnathcjd/gogram/internal/session"
-	"github.com/amarnathcjd/gogram/internal/utils"
-	"github.com/amarnathcjd/gogram/telegram/e2e"
+	ige "github.com/BabiesIQ/gogram/internal/aes_ige"
+	"github.com/BabiesIQ/gogram/internal/encoding/tl"
+	"github.com/BabiesIQ/gogram/internal/session"
+	"github.com/BabiesIQ/gogram/internal/utils"
+	"github.com/BabiesIQ/gogram/telegram/e2e"
 )
 
 // NewInt256 creates a tl.Int256 from the given big-endian bytes.

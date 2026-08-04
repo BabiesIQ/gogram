@@ -11,8 +11,8 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/amarnathcjd/gogram/internal/utils"
-	"github.com/amarnathcjd/gogram/telegram/e2e"
+	"github.com/BabiesIQ/gogram/internal/utils"
+	"github.com/BabiesIQ/gogram/telegram/e2e"
 )
 
 func mixRandom(serverRandom []byte) []byte {

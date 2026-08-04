@@ -14,8 +14,8 @@ import (
 
 	"errors"
 
-	aes "github.com/amarnathcjd/gogram/internal/aes_ige"
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
+	aes "github.com/BabiesIQ/gogram/internal/aes_ige"
+	"github.com/BabiesIQ/gogram/internal/encoding/tl"
 )
 
 // defaultAESKey is used when no AuthAESKey is supplied. The session file

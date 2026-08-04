@@ -10,11 +10,11 @@ import (
 
 	"errors"
 
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
-	"github.com/amarnathcjd/gogram/internal/mtproto/messages"
-	"github.com/amarnathcjd/gogram/internal/mtproto/objects"
-	"github.com/amarnathcjd/gogram/internal/session"
-	"github.com/amarnathcjd/gogram/internal/utils"
+	"github.com/BabiesIQ/gogram/internal/encoding/tl"
+	"github.com/BabiesIQ/gogram/internal/mtproto/messages"
+	"github.com/BabiesIQ/gogram/internal/mtproto/objects"
+	"github.com/BabiesIQ/gogram/internal/session"
+	"github.com/BabiesIQ/gogram/internal/utils"
 )
 
 func (m *MTProto) sendPacket(request tl.Object, expectedTypes ...reflect.Type) (chan tl.Object, int64, error) {

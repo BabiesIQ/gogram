@@ -11,7 +11,7 @@ import (
 
 	"errors"
 
-	"github.com/amarnathcjd/gogram"
+	"github.com/BabiesIQ/gogram"
 )
 
 type SendOptions struct {

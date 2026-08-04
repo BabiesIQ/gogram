@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
-	"github.com/amarnathcjd/gogram/internal/mtproto/messages"
+	"github.com/BabiesIQ/gogram/internal/encoding/tl"
+	"github.com/BabiesIQ/gogram/internal/mtproto/messages"
 )
 
 // TYPES

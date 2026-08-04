@@ -18,13 +18,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
-	"github.com/amarnathcjd/gogram/internal/mode"
-	"github.com/amarnathcjd/gogram/internal/mtproto/messages"
-	"github.com/amarnathcjd/gogram/internal/mtproto/objects"
-	"github.com/amarnathcjd/gogram/internal/session"
-	"github.com/amarnathcjd/gogram/internal/transport"
-	"github.com/amarnathcjd/gogram/internal/utils"
+	"github.com/BabiesIQ/gogram/internal/encoding/tl"
+	"github.com/BabiesIQ/gogram/internal/mode"
+	"github.com/BabiesIQ/gogram/internal/mtproto/messages"
+	"github.com/BabiesIQ/gogram/internal/mtproto/objects"
+	"github.com/BabiesIQ/gogram/internal/session"
+	"github.com/BabiesIQ/gogram/internal/transport"
+	"github.com/BabiesIQ/gogram/internal/utils"
 )
 
 const (

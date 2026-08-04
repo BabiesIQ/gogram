@@ -23,8 +23,8 @@ import (
 
 	"errors"
 
-	mtproto "github.com/amarnathcjd/gogram"
-	"github.com/amarnathcjd/gogram/internal/encoding/tl"
+	mtproto "github.com/BabiesIQ/gogram"
+	"github.com/BabiesIQ/gogram/internal/encoding/tl"
 )
 
 const (

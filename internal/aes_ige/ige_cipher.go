@@ -8,7 +8,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/amarnathcjd/gogram/internal/utils"
+	"github.com/BabiesIQ/gogram/internal/utils"
 )
 
 type Cipher struct {

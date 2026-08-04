@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/amarnathcjd/gogram/internal/mtproto/objects"
+	"github.com/BabiesIQ/gogram/internal/mtproto/objects"
 )
 
 type ErrResponseCode struct {
@@ -836,5 +836,5 @@ func FormatDecodeError(err error) string {
 	if m := regexp.MustCompile(`\*([a-z]+\.\w+):`).FindStringSubmatch(s); len(m) > 1 {
 		root = m[1]
 	}
-	return fmt.Sprintf("decode error: unknown crc %s at %s (in %s) - report to github.com/amarnathcjd/gogram", crc, field, root)
+	return fmt.Sprintf("decode error: unknown crc %s at %s (in %s) - report to github.com/BabiesIQ/gogram", crc, field, root)
 }
