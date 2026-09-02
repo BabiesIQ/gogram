@@ -32,7 +32,7 @@ var (
 	}
 )
 
-const helpMsg = `welcome to gogram's TL generator (c) @amarnathcjd`
+const helpMsg = `welcome to gogram's TL generator (c) @BabiesIQ`
 
 type AEQ struct {
 	Force bool
@@ -247,7 +247,7 @@ func root(tlfile, outdir string, d bool, rlayer string) error {
 	}
 
 	log.Printf("INFO: Creating generator (output dir: %s)\n", outdir)
-	g, err := gen.NewGenerator(schema, "(c) @amarnathcjd", outdir)
+g, err := gen.NewGenerator(schema, "(c) @BabiesIQ", outdir)
 	if err != nil {
 		log.Printf("ERROR: Failed to create generator: %v\n", err)
 		return err
