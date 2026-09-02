@@ -1,4 +1,4 @@
-// Copyright (c) 2025 @AmarnathCJD
+// Copyright (c) 2025 @BabiesIQ
 //go:build js && wasm
 // +build js,wasm
 
