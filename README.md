@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/amarnathcjd/gogram">
+    <a href="https://github.com/BabiesIQ/gogram">
         <img src="https://i.imgur.com/RE1M0sM.png" alt="Gogram" width="256">
     </a>
     <br>
@@ -8,7 +8,7 @@
     <b>
     <a href="https://gogram.sbs">documentation</a>
     &nbsp;•&nbsp;
-    <a href="https://github.com/amarnathcjd/gogram/releases">releases</a>
+    <a href="https://github.com/BabiesIQ/gogram/releases">releases</a>
     &nbsp;•&nbsp;
     <a href="https://t.me/rosexchat">telegram chat</a>
     </b>
@@ -16,16 +16,16 @@
 
 <div align='center'>
 	
-[![GoDoc](https://godoc.org/github.com/amarnathcjd/gogram?status.svg)](https://godoc.org/github.com/amarnathcjd/gogram)
-[![Go Report Card](https://goreportcard.com/badge/github.com/amarnathcjd/gogram)](https://goreportcard.com/report/github.com/amarnathcjd/gogram)
-[![License](https://img.shields.io/github/license/amarnathcjd/gogram.svg)](https://img.shields.io/github/license/amarnathcjd/gogram.svg)
-[![GitHub stars](https://img.shields.io/github/stars/amarnathcjd/gogram.svg?style=social&label=Stars)](https://img.shields.io/github/stars/amarnathcjd/gogram.svg?style=social&label=Stars)
-[![GitHub forks](https://img.shields.io/github/forks/amarnathcjd/gogram.svg?style=social&label=Fork)](https://img.shields.io/github/forks/amarnathcjd/gogram.svg?style=social&label=Fork)
+[![GoDoc](https://godoc.org/github.com/BabiesIQ/gogram?status.svg)](https://godoc.org/github.com/BabiesIQ/gogram)
+[![Go Report Card](https://goreportcard.com/badge/github.com/BabiesIQ/gogram)](https://goreportcard.com/report/github.com/BabiesIQ/gogram)
+[![License](https://img.shields.io/github/license/BabiesIQ/gogram.svg)](https://img.shields.io/github/license/BabiesIQ/gogram.svg)
+[![GitHub stars](https://img.shields.io/github/stars/BabiesIQ/gogram.svg?style=social&label=Stars)](https://img.shields.io/github/stars/BabiesIQ/gogram.svg?style=social&label=Stars)
+[![GitHub forks](https://img.shields.io/github/forks/BabiesIQ/gogram.svg?style=social&label=Fork)](https://img.shields.io/github/forks/BabiesIQ/gogram.svg?style=social&label=Fork)
 
 </div>
 
 <div align='center'>
-	<img src="https://count.getloli.com/get/@gogram-amarnathcdj?theme=moebooru" alt="Counter" />
+<img src="https://count.getloli.com/get/@gogram-BabiesIQ?theme=moebooru" alt="Counter" />
 </div>
 
 
@@ -43,7 +43,7 @@ identity (bot API alternative) using Go.</p>
 <p>please note that gogram requires Go <b>1.18</b> or later to support go-generics</p>
 
 ```bash
-go get -u github.com/amarnathcjd/gogram/telegram
+go get -u github.com/BabiesIQ/gogram/telegram
 ```
 
 ## quick start
@@ -51,7 +51,7 @@ go get -u github.com/amarnathcjd/gogram/telegram
 ```golang
 package main
 
-import "github.com/amarnathcjd/gogram/telegram"
+import "github.com/BabiesIQ/gogram/telegram"
 
 func main() {
 	client, err := telegram.NewClient(telegram.ClientConfig{
@@ -75,14 +75,14 @@ func main() {
 }
 ```
 
-- **[sample modular bot](https://github.com/AmarnathCJD/JuliaBot.git)**: a simple modular bot built using gogram with plugins support.
+- **[sample modular bot](https://github.com/BabiesIQ/JuliaBot.git)**: a simple modular bot built using gogram with plugins support.
 - **Try out Live Demo** at **[JuliaBot](https://t.me/rustyDbot)**. 
 
 ## support dev
 
 If you'd like to support Gogram, you can consider:
 
-- <b><a href="https://github.com/sponsors/amarnathcjd" style="text-decoration: none; color: green;">become a github sponsor</a></b>
+- <b><a href="https://github.com/sponsors/BabiesIQ" style="text-decoration: none; color: green;">become a github sponsor</a></b>
 - <b>star this repo :) ⭐</b>
 
 ## key features
