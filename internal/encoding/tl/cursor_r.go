@@ -15,7 +15,6 @@ import (
 const largeBufferThreshold = 128 * 1024 // 128KB
 const maxVectorElements = 1 << 24
 
-// LargeBytePool reuses large byte buffers (>= 128KB) to reduce heap
 // allocations during file downloads. Callers that receive a large []byte
 // from TL decoding should call ReleaseLargeBuffer when done with it.
 var LargeBytePool = sync.Pool{
