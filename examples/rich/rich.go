@@ -182,7 +182,7 @@ func handleBlocks(m *tg.NewMessage) error {
 					URL:         "https://github.com/BabiesIQ/gogram",
 					Title:       "gogram",
 					Description: "Go MTProto client used by this bot.",
-					Author:      "amarnathcjd",
+Author:      "BabiesIQ",
 				},
 			},
 		}).
