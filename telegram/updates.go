@@ -1,4 +1,4 @@
-// Copyright (c) 2025, amarnathcjd
+// Copyright (c) 2025, BabiesIQ
 
 package telegram
 
