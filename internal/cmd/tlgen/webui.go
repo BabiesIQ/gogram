@@ -609,7 +609,7 @@ footer a:hover{color:var(--accent)}
     </div>
   </div>
 
-  <footer>© 2025 <a href="https://github.com/AmarnathCJD" target="_blank">@AmarnathCJD</a> · <a href="https://github.com/BabiesIQ/gogram" target="_blank">gogram</a></footer>
+  <footer>© 2025 <a href="https://github.com/BabiesIQ" target="_blank">@BabiesIQ</a> · <a href="https://github.com/BabiesIQ/gogram" target="_blank">gogram</a></footer>
 </div>
 
 <div id="missingTypeModal" class="modal">
